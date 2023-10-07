@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: bisque;
+}
+
+h1,h2,h3,h4,h5{
+    font-size: 20px;    
+}
+
+h1{
+}
+
+.section4_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    max-width: 300px;
+    box-shadow: 0 0 15px skyblue;
+    border-radius: 10px;
+    min-height: 350px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card1_foto{
+    background:url(https://www.irgups.ru/sites/default/files/styles/100x100zc/public/irgups/image/otzyv/IRG02115%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg?itok=hpb4oQOe) center no-repeat;
+    width: 90px;
+    height: 80px;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+.card2_foto{
+    background:url(https://www.irgups.ru/sites/default/files/styles/100x100zc/public/irgups/image/otzyv/photo_2023-03-24_10-23-11.jpg?itok=FE9ahOQv) center no-repeat;
+    width: 90px;
+    height: 80px;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+.card3_foto{
+    background:url(https://www.irgups.ru/sites/default/files/styles/100x100zc/public/irgups/image/otzyv/photo_2023-03-15_10-45-25.jpg?itok=Tft38N-g) center no-repeat;
+    width: 90px;
+    height: 80px;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+.card4_foto{
+    background:url(https://www.irgups.ru/sites/default/files/styles/100x100zc/public/irgups/image/otzyv/photo_2023-04-04_11-34-46.jpg?itok=_8Rtg7yg) center no-repeat;
+    width: 90px;
+    height: 80px;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+.card5_foto{
+    background:url(https://www.irgups.ru/sites/default/files/styles/100x100zc/public/irgups/image/otzyv/IRG01009.jpg?itok=b5GzTze7) center no-repeat;
+    width: 90px;
+    height: 80px;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+}
