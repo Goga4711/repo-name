@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+  <a href="{{ url_for('logout') }}">Logout</a>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Логин</th>
+            <th>Пароль (захешированый)</th>
+        </tr>
+        {% for user in users %}
+        <tr>
+            <td>{{ user['id'] }}</td>
+            <td>{{ user['username'] }}</td>
+            <td>{{ user['password'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h3>Работа с БД</h3>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit" name="action" value="insert">Вставить</button>
+        <button type="submit" name="action" value="update">Обновить</button>
+        <button type="submit" name="action" value="delete">Удалить</button>
+    </form>
+</body>
+</html>
